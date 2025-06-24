@@ -1,0 +1,42 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing:border_box;
+}
+.container{
+    border: 1px solid black;
+    display: flex;
+    margin: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: right;
+    height: fit-content;
+    width: fit-content;
+}
+.row{
+    display: inline-flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.details{
+    margin: 10px;
+}
+.logo{
+    max-height: 50px;
+    width: 600px;
+}
+.name{
+    color: red;
+}
+.main{
+    padding-left: 50px;
+}
+.no{
+font-weight: normal;
+}
+.last{
+    font-size:23px;
+}
+.mero{
+    height: 75%;
+}
